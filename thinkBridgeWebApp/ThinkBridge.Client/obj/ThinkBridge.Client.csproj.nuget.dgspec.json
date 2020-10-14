@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Client\\ThinkBridge.Client.csproj": {}
+  },
+  "projects": {
+    "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Client\\ThinkBridge.Client.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Client\\ThinkBridge.Client.csproj",
+        "projectName": "ThinkBridge.Client",
+        "projectPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Client\\ThinkBridge.Client.csproj",
+        "packagesPath": "C:\\Users\\320062765\\.nuget\\packages\\",
+        "outputPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Client\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\320062765\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Vineet\\working folder\\AdventHealthCode\\ExternalDLL": {},
+          "C:\\Vineet\\working folder\\SRC Code\\ExternalDLL": {},
+          "http://myget.org/F/xamarin-plugins/": {},
+          "http://packagesource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj": {
+                "projectPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.4, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj",
+        "projectName": "ThinkBridge.UtilityAndModels",
+        "projectPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj",
+        "packagesPath": "C:\\Users\\320062765\\.nuget\\packages\\",
+        "outputPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\320062765\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Vineet\\working folder\\AdventHealthCode\\ExternalDLL": {},
+          "C:\\Vineet\\working folder\\SRC Code\\ExternalDLL": {},
+          "http://myget.org/F/xamarin-plugins/": {},
+          "http://packagesource": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

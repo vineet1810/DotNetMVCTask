@@ -1,0 +1,9 @@
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\bin\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.deps.json
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\bin\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.dll
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\bin\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.pdb
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\obj\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.csprojAssemblyReference.cache
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\obj\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.AssemblyInfoInputs.cache
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\obj\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.AssemblyInfo.cs
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\obj\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.dll
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\obj\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.pdb
+C:\Vineet\Study\ThinkBridge\thinkBridgeWebApp\ThinkBridge.Utility\obj\Debug\netstandard2.0\ThinkBridge.UtilityAndModels.csproj.CoreCompileInputs.cache

@@ -1,0 +1,24 @@
+﻿@model ThinkBridge.UtilityAndModels.Models.InventoryDto
+@using ThinkBridge.Utility
+
+@{
+    ViewData["Title"] = "Detail";
+}
+<body>
+    <h1>Detail Page</h1>
+    @if (!string.IsNullOrWhiteSpace(Model.inventory.FileBase64))
+    {
+        <img src="@(Model.inventory.FileBase64)" width="400" height="400" /> <br>
+    }
+    <b>@Html.LabelFor(x => x.inventory.ProductName):&nbsp; </b>
+    @Html.DisplayFor(x => x.inventory.ProductName) <br>
+
+    <b>@Html.LabelFor(x => x.inventory.ProductDescription):&nbsp;</b>
+    @Html.DisplayFor(x => x.inventory.ProductDescription)  <br>
+
+    <b>@Html.LabelFor(x => x.inventory.ProductPrice):&nbsp;</b>
+    @("\u20B9"+" ")@Html.DisplayFor(x => x.inventory.ProductPrice) <br>
+
+    <button class="btn btn-secondary float-left" onclick="location.href='@Url.Action("Index", "Inventory")'">Cancel</button>
+
+</body>

@@ -1,0 +1,74 @@
+﻿@model ThinkBridge.UtilityAndModels.Models.InventoryDto
+@using ThinkBridge.Utility
+@{
+    ViewData["Title"] = "Index";
+}
+<script>
+    function redirectToDetailPage(id) {
+        window.document.location = "Inventory/Detail?id="+id;
+    }
+</script>
+<body>
+    <div>
+        <div>
+            <h1>Product Add</h1>
+            @using (Html.BeginForm("AddDelete", "Inventory", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken();
+                @Html.ValidationSummary(false);
+                <br>
+                <div>
+                    <div>
+                        @Html.LabelFor(m => m.inventory.ProductPhoto) <br>
+                        <input type="file" name="postedFiles" multiple /><br>
+                        @Html.ValidationMessageFor(m => m.inventory.ProductPhoto, "", new { @class = "error_message" })    <br>
+
+                        @Html.LabelFor(m => m.inventory.ProductName) <br>
+                        @Html.TextBoxFor(m => m.inventory.ProductName) <br />
+                        @Html.ValidationMessageFor(m => m.inventory.ProductName, "", new { @class = "error_message" }) <br><br>
+
+                        @Html.LabelFor(m => m.inventory.ProductDescription) <br>
+                        @Html.TextAreaFor(m => m.inventory.ProductDescription) <br />
+                        @Html.ValidationMessageFor(m => m.inventory.ProductDescription, "", new { @class = "error_message" }) <br><br>
+
+                        @Html.LabelFor(m => m.inventory.ProductPrice) <br>
+                        @Html.EditorFor(m => m.inventory.ProductPrice, new { @type = "number" }) <br />
+                        @Html.ValidationMessageFor(m => m.inventory.ProductPrice, "", new { @class = "error_message" }) <br>
+                    </div>
+                    <br>
+                    <input type="Submit" value="Save" class="btn btn-outline-primary" />
+                    <br><br>
+                </div>
+                @if ("File upload failed!!".Equals(ViewBag.Message) == true)
+                {
+                    <script type="text/javascript">
+                        alert("File Must Have .tol.gpg extension");
+                    </script>
+
+                }
+            }
+        </div>
+
+        <div>
+            <h1>Product List (@(Model.inventories.Count))</h1>
+            <table style="margin-top:15px; width: 300px; position:relative">
+                @foreach (var item in Model.inventories)
+                {
+                    <a>
+                        <tr onclick="redirectToDetailPage(@(item.InventoryID))">
+                            <td rowspan="2" align="justify">  <img src=@( string.IsNullOrWhiteSpace(item.FileBase64) ?Constants.I_NO_ICON_SVG: item.FileBase64) height="60" width="60" />    </td>
+                            <td><b>@(item.ProductName)<b></td>
+                            <td>@("\u20B9"+" "+item.ProductPrice)</td>
+                        </tr>
+                        <tr style="margin-bottom:15px">
+                            <td>@(item.ProductDescription)</td>
+                            <td><button class="btn btn-primary" onclick="location.href='@Url.Action("AddDelete", "Inventory", new { id = item.InventoryID })'">
+                                Delete</button></td>
+                        </tr>
+                    </a>
+                }
+            </table>
+        </div>
+    </div>
+</body>
+
