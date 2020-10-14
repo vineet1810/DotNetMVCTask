@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eDZ34HKs2Bf1zSiLIuTMpkeVJbwm0ib3fJvq+CvS4gfIqBXqxQFD/OPjTLQgbCe9xw1YbR7SlmOAuJ9ngV5qnA==",
+  "dgSpecHash": "GUJLHGXmF0jjtN/y/1PnSjHxslu6Czu5q0cYiV7N4rOnT+Vs8qGYGMyDQkoQVK8l/eSk1Etdjiam8UsOefkD5w==",
   "success": true,
-  "projectFilePath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Client\\ThinkBridge.Client.csproj",
+  "projectFilePath": "C:\\Vineet\\Study\\ThinkBridge\\Git\\DotNetMVCTask\\thinkBridgeWebApp\\ThinkBridge.Client\\ThinkBridge.Client.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\320062765\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\320062765\\.nuget\\packages\\microsoft.aspnetcore.http.features\\3.1.9\\microsoft.aspnetcore.http.features.3.1.9.nupkg.sha512",

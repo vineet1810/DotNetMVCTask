@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj": {}
+    "C:\\Vineet\\Study\\ThinkBridge\\Git\\DotNetMVCTask\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj": {}
   },
   "projects": {
-    "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj": {
+    "C:\\Vineet\\Study\\ThinkBridge\\Git\\DotNetMVCTask\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj",
+        "projectUniqueName": "C:\\Vineet\\Study\\ThinkBridge\\Git\\DotNetMVCTask\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj",
         "projectName": "ThinkBridge.UtilityAndModels",
-        "projectPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj",
+        "projectPath": "C:\\Vineet\\Study\\ThinkBridge\\Git\\DotNetMVCTask\\thinkBridgeWebApp\\ThinkBridge.Utility\\ThinkBridge.UtilityAndModels.csproj",
         "packagesPath": "C:\\Users\\320062765\\.nuget\\packages\\",
-        "outputPath": "C:\\Vineet\\Study\\ThinkBridge\\thinkBridgeWebApp\\ThinkBridge.Utility\\obj\\",
+        "outputPath": "C:\\Vineet\\Study\\ThinkBridge\\Git\\DotNetMVCTask\\thinkBridgeWebApp\\ThinkBridge.Utility\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
