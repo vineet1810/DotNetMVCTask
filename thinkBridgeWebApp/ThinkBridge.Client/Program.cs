@@ -14,6 +14,7 @@ namespace ThinkBridge.Client
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+            /*data test*/
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
